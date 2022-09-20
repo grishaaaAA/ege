@@ -1,16 +1,17 @@
 def f(x, y, a):
-    return (y + 2*x < a) or (x > 30) or (y > 20)
+    return ((x < a) <= (x**2 < 81)) and ((y**2 <= 36) <= (y <= a))
 
 
 def task():
-    for a in range(1000):
+    count = 0
+    for a in range(500):
         r = True
         for x in range(1000):
             for y in range(1000):
                 r = r and f(x, y, a)
         if r:
-            print(a)
-            return
+            count += 1
+    print(count)
 
 
 task()
