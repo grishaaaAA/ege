@@ -1,3 +1,4 @@
-n = 10**4
-dif = (n**2 - n) // 2
-print(dif // 10**7)
+x = [3, 1, 2, 4, 5]
+x.sort()
+x.reverse()
+print(x)
