@@ -1,0 +1,1 @@
+print(max(map(len, open('').readline().replace('Z', ' ').replace('Y', ' ').split())))
