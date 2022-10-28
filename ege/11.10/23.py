@@ -7,3 +7,4 @@ def f(start, end):
 
 
 print(f(1, 10) * f(10, 20))
+
