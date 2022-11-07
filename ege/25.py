@@ -3,7 +3,7 @@ def isPrime(n):
         if n % divider == 0:
             return False
     return n != 1
-
+#simplicity test
 
 def netrivialDivider():
     for n in range(123456789, 223456789 + 1):
@@ -13,13 +13,13 @@ def netrivialDivider():
         quadRoot = int(quadRoot)
         if isPrime(quadRoot):
             print(n, quadRoot**3)
-
+#long method
 
 def effective():
     for p in range(107, 122, 2):
         if isPrime(p):
             print(p**3, p**4)
 
-
+#quick method
 effective()
 # task 29673, simplicity test; long method after quick method.

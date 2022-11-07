@@ -18,4 +18,4 @@ def task():
 
 
 task()
-
+# exercise 6
