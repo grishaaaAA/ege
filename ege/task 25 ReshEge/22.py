@@ -17,7 +17,7 @@ def ok(n):
 
 
 def task():
-    for n in range(35*10**6, 40*10**6 + 1):
+    for n in range(45*10**6, 50*10**6 + 1):
         if ok(n):
             print(n)
 

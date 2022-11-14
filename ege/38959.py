@@ -14,13 +14,5 @@ def ok(n):
     return False
 
 
-def task():
-    count = 0
-    number = 200 * 10**6 + 1
-    while count < 5:
-        if ok(number):
-            count += 1
-        number += 1
 
 
-task()
