@@ -21,4 +21,4 @@ def task():
         if ok(n):
             print(n)
 
-task()
+
